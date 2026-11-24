@@ -1,4 +1,4 @@
-﻿# Docker OpenClaw + Ollama
+# Docker OpenClaw + Ollama
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -27,8 +27,8 @@ git clone https://github.com/openclaw/openclaw.git
 cd openclaw
 
 # 3. Baixar arquivos de setup com Ollama
-curl -O https://raw.githubusercontent.com/inematds/docker-clawdbot-ollama/main/docker-compose.ollama.yml
-curl -O https://raw.githubusercontent.com/inematds/docker-clawdbot-ollama/main/docker-ollama-setup.sh
+curl -O https://raw.githubusercontent.com/linnoff88-dev/docker-clawdbot-ollama/main/docker-compose.ollama.yml
+curl -O https://raw.githubusercontent.com/linnoff88-dev/docker-clawdbot-ollama/main/docker-ollama-setup.sh
 chmod +x docker-ollama-setup.sh
 
 # 4. Rodar setup automatico
